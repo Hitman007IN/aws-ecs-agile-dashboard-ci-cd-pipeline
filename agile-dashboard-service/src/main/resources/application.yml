@@ -1,8 +1,8 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://demodb.cluster-cqzhstfzxybf.us-east-1.rds.amazonaws.com:3306/agile_dashboard
-    password: ckZtilZdX8diADXHBjsE
+    url: jdbc:mysql://database-1.cluster-cqzhstfzxybf.us-east-1.rds.amazonaws.com:3306/agile_dashboard
+    password: viJ2oWvuE8TOf6DNHXtA
     username: admin
     driver-class-name: "com.mysql.jdbc.Driver"
   jpa:

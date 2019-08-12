@@ -4,7 +4,7 @@ spring:
     url: jdbc:mysql://database-1.cluster-cqzhstfzxybf.us-east-1.rds.amazonaws.com:3306/agile_dashboard
     password: viJ2oWvuE8TOf6DNHXtA
     username: admin
-    driver-class-name: "com.mysql.jdbc.Driver"
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     
